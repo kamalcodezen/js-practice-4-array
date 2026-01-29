@@ -66,4 +66,31 @@ console.log(`Final price after applying offer new array =`, price);
 
 // =====================================================================
 
+/*===================================
+Qs3. create an array to store companies --> "Bloomberg", "Microsoft","Uber","Google","IBM","Netflix".
+
+a.Remove the first company from the array.
+
+b.Remove Uber & Add Ola its Place.
+
+c.Add Amazon at the end.
+====================================*/
+
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+console.log(companies);
+
+companies.shift();
+// console.log(companies);
+
+companies.splice(2, 1, "Ola");
+// console.log(companies);
+
+companies.push("Amazon");
+// console.log(companies);
+
+console.log(companies);
+
+
+// =============================
+
 
